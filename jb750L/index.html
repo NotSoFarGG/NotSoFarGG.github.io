@@ -65,7 +65,7 @@ document.cookie = 'kex=1';
 <h1 style="font-size:20px;text-align:center;color:yellow;">You Will Experience Insufficient Memory Problems in the Browser (You Must Insist)</h1>
 <div style="text-align:center">
 <button class="btn" onmouseover="mainpayload1()" onmouseout="pagetitle()" onclick=load_goldhen()> GoldHEN v1.1 </button>
-<button class="btn" onmouseover="mainpayload3()" onmouseout="pagetitle()" onclick=load_binloader()> Bin Loader </button>
+<button class="btn" onmouseover="mainpayload2()" onmouseout="pagetitle()" onclick=load_binloader()> Bin Loader </button>
 <br>
 <h1 style="font-size:20px;text-align:center;">Payloads</h1>
 <button class="btn btn-toolbox" onmouseover="orbistoolbox()" onmouseout="pagetitle()" onclick=load_toolbox()> Orbis-Toolbox </button>
@@ -79,70 +79,7 @@ function mainpayload1(){
 document.getElementById("msgs").innerHTML = "GoldHEN v1.1 for All Firmwares 7.5x (Includes Temporary Fix for CE-30391-6)";
 }
 function mainpayload2(){
-document.getElementById("msgs").innerHTML = "MIRA for All Firmwares 7.5x";
-}
-function mainpayload3(){
 document.getElementById("msgs").innerHTML = "Inject a Payload Using the IP of the console and Port 9021";
-}
-function todex(){
-document.getElementById("msgs").innerHTML = "Enable Some Debugging Functions Available on TestKit";
-}
-function dumper(){
-document.getElementById("msgs").innerHTML = "Dump your Games (Necessary a USB Drive in exFAT)";
-}
-function ftp(){
-document.getElementById("msgs").innerHTML = "Access this console Through FTP (Be careful what you do)";
-}
-function app2usb(){
-document.getElementById("msgs").innerHTML = "Transfer Games / Apps to USB Drive in exFAT";
-}
-function enableUpdates(){
-document.getElementById("msgs").innerHTML = "Enable System Updates";
-}
-function disableUpdates(){
-document.getElementById("msgs").innerHTML = "Disable System Updates";
-}
-function dbackup(){
-document.getElementById("msgs").innerHTML = "Creates a Backup of the Console Database and Your User on a USB Drive";
-}
-function dbrestore(){
-document.getElementById("msgs").innerHTML = "Restore Database Backup from USB Drive";
-}
-function historyBlocker(){
-document.getElementById("msgs").innerHTML = "Disable Browser History, it will only show Frequently used Pages once you open";
-}
-function ebrowser(){
-document.getElementById("msgs").innerHTML = "Enable The PS4 Browser";
-}
-function kernelDump(){
-document.getElementById("msgs").innerHTML = "Dump a Conole Kernel to USB Drive";
-}
-function kernelClock(){
-document.getElementById("msgs").innerHTML = "Change the Time for the Console Kernel Clock";
-}
-function ps4debug(){
-document.getElementById("msgs").innerHTML = "Activate Your User Account Offline";
-}
-function disbaslr(){
-document.getElementById("msgs").innerHTML = "Disables the ASLR (Address space layout randomization)";
-}
-function rifrenamer(){
-document.getElementById("msgs").innerHTML = "Renames 'fake' RIFs to 'free' RIFs";
-}
-function fanthreshold(){
-document.getElementById("msgs").innerHTML = "Modify PS4 FAN Speed";
-}
-function webact(){
-document.getElementById("msgs").innerHTML = "Activate Your User Account from the Console Browser";
-}
-function exitidu(){
-document.getElementById("msgs").innerHTML = "Disable IDU Mode, if you have activated it by mistake";
-}
-function linux1gb(){
-document.getElementById("msgs").innerHTML = "Load Linux with 1GB VRAM";
-}
-function linux3gb(){
-document.getElementById("msgs").innerHTML = "Load Linux with 3GB VRAM";
 }
 function orbistoolbox(){
 document.getElementById("msgs").innerHTML = "Orbis ToolBox Alpha Build 1167 for Firmware 7.55";
