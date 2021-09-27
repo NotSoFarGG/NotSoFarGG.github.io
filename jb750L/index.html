@@ -93,7 +93,14 @@ document.getElementById("msgs").innerHTML = "PS4 Trainer Website (Follow Instruc
 function pagetitle(){
 document.getElementById("msgs").innerHTML = "PS4 7.50 lite Host v1.5 by GamerHack - Edited NotSoFar";
 }
-
+	
+for(var i=40; i<=79; i++){
+    var select = document.getElementById("tempC");
+    var option = document.createElement("OPTION");
+	select.options.add(option);
+	option.text = i;
+	option.value = i;
+	
 }
 tempC.value=60;
 
