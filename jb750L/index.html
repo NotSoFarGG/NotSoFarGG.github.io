@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html manifest="cache.manifest"><head>
-<title>PS4 7.50 - 7.55 Host v1.5 by GamerHack</title>
+<title>PS4 7.50 lite Host v1.5 by GamerHack - Edited NotSoFar</title>
 <style>
 html, body {
 background-image: url('img.jpg');
@@ -59,13 +59,12 @@ function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cac
 document.cookie = 'kex=1';
 </script>
 </head>
-<h1 id=msgs>PS4 7.50 - 7.55 Host v1.5 by GamerHack</h1>
+<h1 id=msgs>PS4 7.50 lite Host v1.5 by GamerHack - Edited NotSoFar</h1>
 <hr>
 <br>
 <h1 style="font-size:20px;text-align:center;color:yellow;">You Will Experience Insufficient Memory Problems in the Browser (You Must Insist)</h1>
 <div style="text-align:center">
 <button class="btn" onmouseover="mainpayload1()" onmouseout="pagetitle()" onclick=load_goldhen()> GoldHEN v1.1 </button>
-<button class="btn" onmouseover="mainpayload2()" onmouseout="pagetitle()" onclick=load_mira75x()> MIRA 7.5x </button>
 <button class="btn" onmouseover="mainpayload3()" onmouseout="pagetitle()" onclick=load_binloader()> Bin Loader </button>
 <br>
 <h1 style="font-size:20px;text-align:center;">Payloads</h1>
@@ -77,10 +76,7 @@ document.cookie = 'kex=1';
 </div>
 <script>
 function mainpayload1(){
-document.getElementById("msgs").innerHTML = "GoldHEN v1.1 for All Firmwares 7.5x (Includes Temporary Fix for CE-30391-6)";
-}
-function mainpayload2(){
-document.getElementById("msgs").innerHTML = "MIRA for All Firmwares 7.5x";
+document.getElementById("msgs").innerHTML = "GoldHEN v1.1 for All Firmwares 7.50 (Includes Temporary Fix for CE-30391-6)";
 }
 function mainpayload3(){
 document.getElementById("msgs").innerHTML = "Inject a Payload Using the IP of the console and Port 9021";
@@ -95,7 +91,7 @@ function ps4trainer(){
 document.getElementById("msgs").innerHTML = "PS4 Trainer Website (Follow Instructions There)";
 }
 function pagetitle(){
-document.getElementById("msgs").innerHTML = "PS4 7.50 - 7.55 Host v1.5 by GamerHack";
+document.getElementById("msgs").innerHTML = "PS4 7.50 lite Host v1.5 by GamerHack - Edited NotSoFar";
 }
 
 for(var i=40; i<=79; i++){
@@ -114,158 +110,11 @@ function load_goldhen(){
         link.href = 'goldhen.html';
         link.click();
 }
-function load_mira75x(){
-
-  var link = document.createElement('a');
-        document.body.appendChild(link);
-        link.href = 'mira-75x.html';
-        link.click();
-}
 function load_binloader(){
 
   var link = document.createElement('a');
         document.body.appendChild(link);
         link.href = 'payload.html';
-        link.click();
-}
-function load_todex(){
-
-  var link = document.createElement('a');
-        document.body.appendChild(link);
-        link.href = 'payload.html#f=todex.js';
-        link.click();
-}
-function load_dumper(){
-
-  var link = document.createElement('a');
-        document.body.appendChild(link);
-        link.href = 'payload.html#f=app-dumper.js';
-        link.click();
-}
-function load_ftp(){
-
-  var link = document.createElement('a');
-        document.body.appendChild(link);
-        link.href = 'payload.html#f=ftp.js';
-        link.click();
-}
-function load_app2usb(){
-
-  var link = document.createElement('a');
-        document.body.appendChild(link);
-        link.href = 'payload.html#f=app2usb.js';
-        link.click();
-}
-function load_enablebUpdates(){
-
-  var link = document.createElement('a');
-        document.body.appendChild(link);
-        link.href = 'payload.html#f=enable-updates.js';
-        link.click();
-}
-function load_disableUpdates(){
-
-  var link = document.createElement('a');
-        document.body.appendChild(link);
-        link.href = 'payload.html#f=disable-updates.js';
-        link.click();
-}
-function load_dbackup(){
-
-  var link = document.createElement('a');
-        document.body.appendChild(link);
-        link.href = 'payload.html#f=backup.js';
-        link.click();
-}
-function load_dbrestore(){
-
-  var link = document.createElement('a');
-        document.body.appendChild(link);
-        link.href = 'payload.html#f=restore.js';
-        link.click();
-}
-function load_historyBlocker(){
-
-  var link = document.createElement('a');
-        document.body.appendChild(link);
-        link.href = 'payload.html#f=history-blocker.js';
-        link.click();
-}
-function load_ebrowser(){
-
-  var link = document.createElement('a');
-        document.body.appendChild(link);
-        link.href = 'payload.html#f=enable-browser.js';
-        link.click();
-}
-function load_kernelDump(){
-
-  var link = document.createElement('a');
-        document.body.appendChild(link);
-        link.href = 'payload.html#f=kernel-dumper.js';
-        link.click();
-}
-function load_kernelClock(){
-
-  var link = document.createElement('a');
-        document.body.appendChild(link);
-        link.href = 'payload.html#f=kernel-clock.js';
-        link.click();
-}
-function load_ps4debug(){
-
-  var link = document.createElement('a');
-        document.body.appendChild(link);
-        link.href = 'payload.html#f=ps4debug.js';
-        link.click();
-}
-function load_disbAslr(){
-
-  var link = document.createElement('a');
-        document.body.appendChild(link);
-        link.href = 'payload.html#f=disable-aslr.js';
-        link.click();
-}
-function load_rifRen(){
-
-  var link = document.createElement('a');
-        document.body.appendChild(link);
-        link.href = 'payload.html#f=rif-renamer.js';
-        link.click();
-}
-function load_fanthreshold(){
-
-  var link = document.createElement('a');
-        document.body.appendChild(link);
-        link.href = 'payload.html#f=fanThreshold.js';localStorage.setItem('fanthreshold', tempC.value);
-        link.click();
-}
-function load_webact(){
-
-  var link = document.createElement('a');
-        document.body.appendChild(link);
-        link.href = 'web-activator.html';
-        link.click();
-}
-function load_exitidu(){
-
-  var link = document.createElement('a');
-        document.body.appendChild(link);
-        link.href = 'payload.html#f=idu.js';
-        link.click();
-}
-function load_linux1gb(){
-
-  var link = document.createElement('a');
-        document.body.appendChild(link);
-        link.href = 'payload.html#f=linux-1gb.js';
-        link.click();
-}
-function load_linux3gb(){
-
-  var link = document.createElement('a');
-        document.body.appendChild(link);
-        link.href = 'payload.html#f=linux-3gb.js';
         link.click();
 }
 function load_toolbox(){
@@ -286,7 +135,7 @@ function load_ps4trainer(){
 
   var link = document.createElement('a');
         document.body.appendChild(link);
-        link.href = 'http://ps4trainer.com/Trainer/index.html';
+        link.href = 'https://notsofargg.github.io/trainer-ps4/';
 		link.target = "blank";
         link.click();
 }
